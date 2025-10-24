@@ -1,0 +1,12 @@
+name: ps1_ex4_nb_to_repo
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - pytest
