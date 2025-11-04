@@ -1,12 +1,13 @@
-name: ps1_ex4_nb_to_repo
+name: ps1_ex4
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.8
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - scikit-learn
+  - python=3.11
   - jupyterlab
-  - pytest
+  - scikit-learn
+  - matplotlib
+  - ipykernel
+  - pandas
+  - numpy
+  - seaborn
+  - wordcloud
